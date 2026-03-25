@@ -134,9 +134,9 @@ Each name is modeled as a character sequence. Models receive `<SOS> + name` as i
 
 | Model | Final Loss | Novelty Rate | Diversity |
 |-------|-----------|-------------|-----------|
-| Vanilla RNN | 1.2807 | 61.0% | — |
-| BLSTM | ~0.20 (early stop) | 100% | — |
-| RNN + Attention | ~0.20 (early stop) | 100% | — |
+| Vanilla RNN | 1.2807 | 61.0% | 90.5% |
+| BLSTM | ~0.20 (early stop) | 100% | 94% |
+| RNN + Attention | ~0.20 (early stop) | 100% | 74% |
 
 - **Novelty Rate**: % of generated names not seen in the training set (measures generalization vs. memorization)
 - **Diversity**: unique generated names / total generated names (measures output variety)
@@ -200,4 +200,5 @@ jupyter notebook NLU2_P2.ipynb   # Part 2: Name Generation
 
 ## 👤 Author
 
-<!-- Add your name/roll number here -->
+Aditya Padhy - B22CS103
+
