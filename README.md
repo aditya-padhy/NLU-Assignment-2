@@ -15,8 +15,6 @@ This assignment is divided into two parts:
 .
 ├── NLU2_P1.ipynb          # Part 1: Corpus Building + Word2Vec
 ├── NLU2_P2.ipynb          # Part 2: Character-Level Name Generation
-├── cleaned_corpus.txt     # Preprocessed IIT Jodhpur corpus (21 documents)
-├── TrainingNames.txt      # 1000 Indian names dataset
 └── README.md
 ```
 
